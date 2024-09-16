@@ -1,0 +1,30 @@
+/*legalmentions*/
+.legal{
+    color: black;
+    margin-top: 30px;
+    
+  }
+
+  
+  .coordo{
+  width: 20px;
+  height: 20px;
+  }
+
+  .cord{
+    color: #0d6efd ;
+  }
+  
+  Accordion.Body{
+    text-align: justify;
+  
+  }
+
+  .edit{
+    text-align: justify;
+  }
+
+.grand-texte{
+    font-weight: bold;
+}
+
