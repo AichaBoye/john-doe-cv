@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import LegalMentions from './pages/LegalMentions';
@@ -23,12 +23,12 @@ function App() {
         <div className="back">
           <p><a href="/" className="john">JOHN DOE</a></p>
           <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
-            <a href="/">Accueil</a>
-            <a href="/services">Services</a>
-            <a href="/realisations">Realisations</a>
-            <a href="/blog">Blog</a>
-            <a href="/contact">Me contacter</a>
-            <a href="/profile">Profil</a>
+            <Link to="/">Accueil</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/realisations">Realisations</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/contact">Me contacter</Link>
+            <Link to="/profile">Profil</Link>
 
           </nav>
           <button className="burger" onClick={toggleMenu}>
