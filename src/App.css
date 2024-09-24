@@ -60,7 +60,7 @@ strong {
 .App {
   text-align: center;
   color: black;
-  width: 1350px;
+  /* width: 1350px; */
   min-height: 100vh;
 }
 
@@ -86,6 +86,7 @@ p{
   height: 10vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 1349px;
 }
 .john{
   color: white;

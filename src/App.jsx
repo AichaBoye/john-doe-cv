@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="back">
-          <p><a href="/" className="john">JOHN DOE</a></p>
+          <p><Link to="/" className="john">JOHN DOE</Link></p>
           <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
             <Link to="/">Accueil</Link>
             <Link to="/services">Services</Link>
