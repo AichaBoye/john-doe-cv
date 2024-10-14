@@ -30,7 +30,7 @@ const Footer = () => {
         </ul>
         <ul className="réaliser">
           <h4 className="titre">Mes dernieres réalisations</h4>
-          <li>Fresh food</li>
+          <li><a href="/Fresh food">Fresh food</a></li>
           <li>Restaurant Akira</li>
           <li>Espace bien-etre</li>
         </ul>

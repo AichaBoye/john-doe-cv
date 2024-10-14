@@ -1,43 +1,331 @@
-.burger {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
 
-@media (max-width: 480px) {
-  .nav {
-    flex-direction: column;
-    position: absolute;
-    top: 60px; 
-    left: 0;
-    right: 0;
-    background-color: white;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
-  }
+/* For screens */
 
-  .nav.open {
-    transform: translateY(0);
-  }
+@media screen and (min-width: 330px) {
 
   .burger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .background-image {
+    width: 600px;
+    height: 300px;
+  }
+
+  .App-header {
+    width: 600px;
+    height: 120px;
+    font-size: 20px;
+  }
+
+  .nav {
+    gap: 25px;
+    display: flex;
+    font-size: 10px;
+    margin-left: 230px;
+  }
+
+  .john {
+    margin-left: 50px;
+    font-size: 18px;
+  }
+
+  .overlay {
+    width: 600px;
+  }
+
+  .about-section {
+    padding: 50px 0px;
+  }
+
+  .profil-container {
     display: block;
-    color: black;
+    width: 390px;
+    height: 1350px;
+    margin-top: 1380px;
+  }
+
+  /* ArticleCard 
+  .card.mb-4 {
+    width: 20px;
+  }*/
+
+  /* Gob 
+  .card {
+    
+  }*/
+
+  /* Realisation 
+  .col-md-4 {
+    
+  }
+
+  .mt-2 {
+
+  }*/
+
+  .btn-primary {
+    width: 80px;
+  }
+
+  /*.ba,
+  .ba2 {
+    width: 1000px;
+    height: 100px;
+  }*/
+
+  /* Profile */
+  .profile {
+
+  }
+
+  /* Footer */
+  .footer {
+    display: contents;
+  }
+
+  footer {
+    width: 650px;
+    height: 740px;
+    margin-top: 190px;
+  }
+
+  /* Fleches */
+  footer li::before {
+    content: '>';
+    left: 0;
+    color: #0d6efd;
+    font-size: 1em;
+  }
+
+  .copyright {
+    margin-left: -180px;
+    margin-top: 665px;
+    width: 800px;
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  .burger {
+    display: none;
+    background: none;
+    border: none;
+  }
+
+  .background-image {
+    width: 900px;
+    height: 600px;
+  }
+
+  .App-header {
+    width: 900px;
+    height: 120px;
+    font-size: 20px;
+  }
+
+  .nav {
+    gap: 25px;
+    font-size: 10px;
+    margin-left: 520px;
+  }
+
+  .john {
+    margin-right: 865px;
+    font-size: 18px;
+  }
+
+  .overlay {
+    margin-left: 200px;
+  }
+
+  .about-section {
+    padding: 50px 0px;
+    width: 100px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .profil-container {
+    display: block;
+    width: 800px;
+    height: 1350px;
+    margin-top: 1380px;
+  }
+
+  /* ArticleCard */
+  .card.mb-4 {
+    width: 20px;
+  }
+
+  /* Gob */
+  .card {
+    width: 45px;
+  }
+
+  /* Realisation */
+  .col-md-4 {
+    width: 34.333%;
+  }
+
+  .mt-2 {
+    width: 143px;
+    height: 40px;
+  }
+
+  .btn-primary {
+    width: 80px;
+  }
+
+  /*.ba,
+  .ba2 {
+    width: 1000px;
+    height: 100px;
+  }*/
+
+  /* Profile */
+  .profile {
+
+  }
+
+  /* Footer */
+  .footer {
+    top: 1500px;
+    margin: 5px;
+    gap: 140px;
+  }
+
+  footer {
+    width: 650px;
+    height: 740px;
+    margin-top: 2190px;
+  }
+
+  /* Fleches */
+  footer li::before {
+    content: '>';
+    left: 0;
+    color: #0d6efd;
+    font-size: 1em;
+  }
+
+  .copyright {
+    margin-left: -180px;
+    margin-top: 665px;
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .burger {
+    display: none;
+    background: none;
+    border: none;
+  }
+
+  .background-image {
+    width: 1349px;
+    height: 600px;
+  }
+
+  .App-header {
+    width: 1349px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .nav {
+    gap: 25px;
+    font-size: 20px;
+    margin-left: 725px;
+    margin-top: -25px;
+  }
+
+  .john {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .overlay {
+    background-repeat: no-repeat;
+  }
+
+  .about-section {
+    padding: 50px 0px;
+    width: 600px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .profil-container {
+    display: flex;
+    width: 1250px;
+    height: 670px;
+  }
+
+  /* ArticleCard 
+  .card.mb-4 {
+
+  }*/
+
+  /* Gob *
+  .card {
+   
+  }*/
+
+  /* Realisation 
+  .col-md-4 {
+  
+  }
+
+  .mt-2 {
+
+  }
+
+  .btn-primary {
+    width: 80px;
+  }
+
+  .ba,
+  .ba2 {
+
+  }*/
+
+  /* Footer */
+  .footer {
+    display: flex;
+    width: 1295px;
+    margin-left: 5px;
+  }
+
+  footer {
+    width: 1349px;
+    height: 300px;
+    margin-top: 1440px;
+    background-color: #f0f0f0;
+  }
+
+  .copyright {
+    margin-left: -20px;
+    margin-top: 240px;
+    width: 1349px;
+  }
+}
+
 
 html, body {
   height: 100%;
   margin: 0;
   flex: 1;
-
-}
-
-/*Pour les ecrans*/
-
-@media screen and (min-width: 480px){
 
 }
 
@@ -83,25 +371,21 @@ p{
 
 .App-header {
   background-color: #282c34;
-  height: 10vh;
   font-size: calc(10px + 2vmin);
   color: white;
-  width: 1349px;
+  
 }
 .john{
   color: white;
-  margin-right: 1160px;
   text-decoration: none;
-  margin-left: 20px;
-  margin-bottom: 20px;
+
 }
 
 .nav{
-  gap: 50px;
+  /*gap: 25px;
   display: flex;
-  margin-left: 550px;
-  margin-top: -34px;
-  gap: 50px;
+  font-size: 10px;
+  margin-left: 230px;*/
 }
 
 nav a{
@@ -130,14 +414,13 @@ nav a:hover {
   background-image: url('https://tse4.mm.bing.net/th?id=OIP.nXsr9yRkL-yDUerltOWHMwHaEK&pid=Api&P=0&h=180'); 
   background-size: cover;
   background-position: center;
-  height: 100vh; 
+
   position: relative;
 }
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.3); 
   color: white; 
-  height: 100%; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,8 +441,8 @@ nav a:hover {
 }
 
 .about-section {
-  padding: 50px 20px; 
-  background-color: #f9f9f9; 
+
+
 }
 
 
@@ -167,21 +450,22 @@ nav a:hover {
 .card mb-4{
   margin-bottom: 1.5rem !important;
   margin-left: 10px;
-  width: 320px;
+
 }
 
 /*Gob*/
 .card {
   padding: 0px;
-  width: 345px;
   text-align: center;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
 
 
 /*realisation*/
 .col-md-4{
-  width: 34.333%;
+  width: 30.333%;
+
 }
 
 
@@ -202,32 +486,31 @@ nav a:hover {
 
 .mt-2{
   margin-top: 0.5rem !important;
-  width: 343px;
   margin-left: -16px;
   height: 40px;
+  width: 110%;
 }
 
 .btn-primary {
   background-color: #0d6efd;
   color: white;
-  width: 80px;
+
   display: grid;
   text-decoration: none;
   margin-left: 25px;
 }
 
 .ba{
-  width: 1349px;
-  height: 100px;
+
   margin-top: -47px;
   margin-left: -117px;
 }
 
 .ba2{
-  width: 1352px;
+  margin-top: 6px;
+  margin-left: -65px;
+  width: 105%;
   height: 100px;
-  margin-top: 1px;
-  margin-left: -70px;
 }
 
 /*profile*/
