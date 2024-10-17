@@ -13,8 +13,9 @@ const competences = [
 
 const Doe = () => {
   return (
-    <div className="profil-container">
-      <div className="a-propos">
+    <div className="profil-container row">
+      {/* <div className="a-propos col-6"> */}
+      <div className="col-12 col-md-6">
         <h2 className="titre">À propos</h2>
         <p className="tire"></p>
         <p>
@@ -26,7 +27,8 @@ const Doe = () => {
         <p>Maecenas fringilla nibh arcu, at vestibulum enim consequat eget.
         </p>
       </div>
-      <div className="competences">
+      {/* <div className="competences col-6"> */}
+      <div className="col-12 col-md-6">
         <img src="imagedeveloppeur.jpeg" alt="description" />
         <h2 className="titre">Mes compétences</h2>
         {competences.map((competence, index) => (
