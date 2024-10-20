@@ -46,7 +46,7 @@
     display: block;
     width: 390px;
     height: 1350px;
-    margin-top: 1380px;
+    /* margin-top: 1380px; */
   }
 
   /* ArticleCard 
@@ -91,7 +91,7 @@
   footer {
     width: 650px;
     height: 740px;
-    margin-top: 190px;
+    /* margin-top: 190px; */
   }
 
   /* Fleches */
@@ -104,7 +104,7 @@
 
   .copyright {
     margin-left: -180px;
-    margin-top: 665px;
+    /* margin-top: 665px; */
     width: 800px;
   }
 }
@@ -156,7 +156,7 @@
     display: block;
     width: 800px;
     height: 1350px;
-    margin-top: 1380px;
+    /* margin-top: 1380px; */
   }
 
   /* ArticleCard */
@@ -204,7 +204,7 @@
   footer {
     width: 650px;
     height: 740px;
-    margin-top: 2190px;
+    /* margin-top: 2190px; */
   }
 
   /* Fleches */
@@ -217,7 +217,7 @@
 
   .copyright {
     margin-left: -180px;
-    margin-top: 665px;
+    /* margin-top: 665px; */
     width: 800px;
   }
 }
@@ -310,13 +310,13 @@
   footer {
     width: 1349px;
     height: 300px;
-    margin-top: 1440px;
+    /* margin-top: 1440px; */
     background-color: #f0f0f0;
   }
 
   .copyright {
     margin-left: -20px;
-    margin-top: 240px;
+    /* margin-top: 240px; */
     width: 1349px;
   }
 }

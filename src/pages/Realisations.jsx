@@ -28,9 +28,9 @@ const RealisationPage = () => {
             <div > 
     <img src="https://tse1.mm.bing.net/th?id=OIP.d6HYWAOutXm3os4WIlGXGAHaFS&pid=Api&P=0&h=180" className="ba2" alt="description" />
     </div>
-            <h1 className="my-4">Portfolio</h1>
-            <p className="folio">Voici quelques-unes de mes réalisations.</p>
-            <p className="ligne"></p>
+            <h1 className="card-title text-center">Portfolio</h1>
+            <p className="text-center">Voici quelques-unes de mes réalisations.</p>
+            <p className="ligne text-center" style={{width: "120rem",}}></p>
             <div className="m5">
                 {projects.map((project, index) => (
                     <div className="col-md-4" key={index}>

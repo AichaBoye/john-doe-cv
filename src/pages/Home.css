@@ -1,7 +1,7 @@
 .home {
 
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
   }
   
@@ -38,16 +38,16 @@
   color: black;
   }
   
-  .a-propos,
+  /* .a-propos,
   .competences {
     width: 50%;
     padding-right: 45px;
     margin: 20px;
-  }
+  } */
   
-  .a-propos {
+  /* .a-propos {
     padding-right: 20px;
-  }
+  } */
   
   h2 {
     margin-bottom: 10px;

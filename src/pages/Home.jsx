@@ -51,6 +51,41 @@ const Doe = () => {
   );
 };
 
+const DoeBis = () => {
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-12 col-md-6">
+          <h2 className="titre">À propos</h2>
+          <p className="tire"></p>
+          <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong> elit. Integer mattis ante id velit posuere tristique sit amet congue ipsum.   Etiam odio quam, scelerisque non tempor id,<strong> varius at turpis.</strong></p>
+          <p>Integer cursus odio quis ante faucibus, quis semper justo accumsan. Aenean ac augue maximus, <strong>placerat neque at, blandit diam</strong>.</p>
+          <p>Maecenas fringilla nibh arcu, at vestibulum enim consequat eget.</p>
+        </div>
+        <div className="col-12 col-md-6">
+          <img src="imagedeveloppeur.jpeg" alt="description" />
+          <h2 className="titre">Mes compétences</h2>
+        {competences.map((competence, index) => (
+          <div key={index} className="competence">
+            <span>{competence.nom}</span>
+            <div className="bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${competence.pourcentage}%`,
+                  backgroundColor: competence.color,
+                }}
+              ></div>
+            </div>
+            <span>{competence.pourcentage}</span>
+          </div>
+        ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const Home = () => {
   return (
     <div className="home">
@@ -63,9 +98,9 @@ const Home = () => {
       </div>
 
       {/* Section À propos */}
-      <section id="about" className="about-section">
-        <Doe />
-      </section>
+      {/* <section id="about" className="about-section"> */}
+        <DoeBis />
+      {/* </section> */}
     </div>
   );
 };

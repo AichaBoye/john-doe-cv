@@ -5,9 +5,9 @@ import './LegalMentions.css'
 const MentionsLegales = () => {
   return (
     <>
-      <div className="legal">
-        <h1>Mentions Légales</h1>
-        <p className="ligne"></p>
+      <div className="card-title text-center">
+        <h1 className="card-title text-center">Mentions Légales</h1>
+        <p className="ligne text-center" style={{width: "120rem",}}></p>
         <Accordion className="accordion">
           <Accordion.Item eventKey="loy">
             <Accordion.Header>Éditeur du site</Accordion.Header>
