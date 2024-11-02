@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import Gob from './Gob';
 
 const RealisationPage = () => {
@@ -30,10 +30,10 @@ const RealisationPage = () => {
     </div>
             <h1 className="card-title text-center">Portfolio</h1>
             <p className="text-center">Voici quelques-unes de mes réalisations.</p>
-            <p className="ligne text-center" style={{width: "120rem",}}></p>
-            <div className="m5">
+            <hr className="lign mx-auto border-primary border-3 opacity-100" style={{ maxWidth: "350px", width: "100%" }} />
+            <div className="row m-5">
                 {projects.map((project, index) => (
-                    <div className="col-md-4" key={index}>
+                    <div className="col-lg-4 col-md-6 col-sm-12 mb-4" key={index}>
                         <Gob 
                             title={project.title}
                             description={project.description}

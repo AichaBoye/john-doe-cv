@@ -1,86 +1,15 @@
 /* src/Contact.css */
-
-.contact-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-size: cover;
-    position: relative;
-    color: black;
-    width: 1350px;
-  }
-  
-  .contact-container::before {
-    content: "";
-    position: absolute;
-    top: 13px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 105, 255, 0.5);
-    z-index: 1;
-    height: 1326px;
-  }
-
-  
-  .form-section {
-    position: relative;
-    z-index: 2;
-    background: white;
-padding: 80px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
-    height: 690px;
-    left: 65px;
-    margin-top: 50px;
-  }
-  .contact-info {
-    position: relative;
-    z-index: 2;
-    background: white;
-    padding: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    top: -621px;
-    left: 575px;
-    width: 525px;
-    height: 690px;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-
   .coordonees{
     width: 20px;
     height: 20px;
-    display: table;
-  margin-top: -47px;
   }
-  .map-container{
-    margin-top: 70px;
-  }
-
-  .cont{
-    text-align: start;
-    margin-left: 26px;
-    margin-bottom: 16px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .message{
-    height: 100px;
-  }
-  
+  .imagge{
+    background-image: url('/public/img\ bleu.jpeg ');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 

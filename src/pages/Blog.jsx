@@ -1,7 +1,7 @@
 // src/components/Blog.js
 import React from "react";
 import ArticleCard from "./ArticleCard";
-import "./Blog.css"
+
 
 const articles = [
   {
@@ -45,17 +45,17 @@ const articles = [
 
 const Blog = () => {
   return (
-    <div className="container mt-5">
+    <div className="container bg-white">
       <div > 
     <img src="https://tse1.mm.bing.net/th?id=OIP.d6HYWAOutXm3os4WIlGXGAHaFS&pid=Api&P=0&h=180" className="ba" alt="description" />
     </div>
-      <h1 className="center">Mon Blog</h1>
-      <h6 className="surl">Retrouvez ici quelques articles sur le développement web.</h6>
-      <p className="ligne"></p>
-      <div className="row">
+      <h1 className="text-center">Mon Blog</h1>
+      <h6 className="text-center">Retrouvez ici quelques articles sur le développement web.</h6>
+      <hr className="lign mx-auto border-primary border-3 opacity-100" style={{ maxWidth: "350px", width: "100%" }} />
+      <div className="row m-5">
         {articles.map((article, index) => (
-          <div className="col-md" key={index}>
-            <ArticleCard
+          <div className=" col-lg-4 col-md-6 col-12 mb-4" key={index}>
+            <ArticleCard className="col-lg-4 col-md-6 col-12 mb-4"
               title={article.title}
               content={article.content}
               image={article.image}

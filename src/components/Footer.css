@@ -8,6 +8,7 @@
   footer {
  
     padding: 20px;
+    background-color:#EEE ;
     
 
   }
@@ -37,12 +38,12 @@
     
   }
 
-  .réseaux{
+  .reseaux{
+    gap: 1rem;
+  }
 
-    display: flex;
-    padding: 12px;
-    margin-right: 0px;
-    margin-top: -15px;
+  .icone {
+    width: 25px;
   }
   
   .copyright{
