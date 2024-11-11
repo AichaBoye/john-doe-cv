@@ -79,14 +79,14 @@ p{
   width: 110%;
 }
 .ba{
-  width: 100%;
+  width: 100% ! important;
   height: 100px;
   object-fit: cover;
   margin-top: -48px;
 }
 .ba2{
   margin-left: -64px;
-  width: 110%;
+  width: 106%;
   height: 100px;
 }
 /*profile*/
